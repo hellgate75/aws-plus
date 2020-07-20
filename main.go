@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/hellgate75/aws-cli-samples/commands"
-	"github.com/hellgate75/aws-cli-samples/connect"
-	"github.com/hellgate75/aws-cli-samples/io"
+	"github.com/hellgate75/aws-plus/commands"
+	"github.com/hellgate75/aws-plus/connect"
+	"github.com/hellgate75/aws-plus/io"
 	"os"
 	"strings"
 )

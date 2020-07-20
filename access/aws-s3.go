@@ -7,7 +7,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/servicediscovery"
-	"github.com/hellgate75/aws-cli-samples/access"
+	"github.com/hellgate75/aws-plus/access"
 )
 func ServiceList() {
 	svc := servicediscovery.New(session.New(&aws.Config{Region: aws.String("eu-west-1")}))

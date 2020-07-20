@@ -3,7 +3,7 @@ package commands
 import (
 	"flag"
 	"fmt"
-	"github.com/hellgate75/aws-cli-samples/connect"
+	"github.com/hellgate75/aws-plus/connect"
 	"os"
 	"strconv"
 )
